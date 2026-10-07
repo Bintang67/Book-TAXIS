@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
       initialRoute: '/',
       routes: {
         '/': (context) => const Login(title: 'Book Taxis'),
-        '/List': (context) => const DriverList(),
+        '/driverList': (context) => const DriverList(),
       },
     );
   }

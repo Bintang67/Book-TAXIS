@@ -84,7 +84,7 @@ class _LoginState extends State<Login> {
 
           // 3. Tombol
           ElevatedButton(
-            child: const Text('Tampilkan Nama & Email'),
+            child: const Text('Continue'),
             onPressed: () {
               print('Nama: ${inputNama.text}');
               print('Email: ${inputEmail.text}');
