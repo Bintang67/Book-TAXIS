@@ -39,8 +39,8 @@ class _LoginState extends State<Login> {
               width: 430,
               child: TextFormField(
                 validator: (value) => value?.trim().isNotEmpty == true
-                      ? null
-                      : 'Nama wajib diisi',
+                    ? null
+                    : 'Nama wajib diisi',
                 decoration: const InputDecoration(
                   fillColor: Colors.white,
                   hintText: 'Masukan Nama Kamu',
@@ -64,8 +64,8 @@ class _LoginState extends State<Login> {
               child: TextFormField(
                 keyboardType: TextInputType.emailAddress,
                 validator: (value) => value?.trim().isNotEmpty == true
-                      ? null
-                      : 'Email wajib diisi',
+                    ? null
+                    : 'Email wajib diisi',
                 decoration: const InputDecoration(
                   fillColor: Colors.white,
                   hintText: 'Masukan Email Kamu',
@@ -88,6 +88,8 @@ class _LoginState extends State<Login> {
             onPressed: () {
               print('Nama: ${inputNama.text}');
               print('Email: ${inputEmail.text}');
+
+              Navigator.pushReplacementNamed(context, '/driverList');
             },
           ),
         ],
