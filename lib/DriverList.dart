@@ -6,7 +6,7 @@ class DriverList extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final drivers = [
-      {'name': 'Adit', 'plate': 'B 1234 ABC', 'status': 'Tersedia'},
+      {'name': 'Andre', 'plate': 'B 1234 ABC', 'status': 'Tersedia'},
       {'name': 'Raka', 'plate': 'B 2222 DEF', 'status': 'Tersedia'},
       {'name': 'Sari', 'plate': 'B 3333 GHI', 'status': 'Sedang di perjalanan'},
       {'name': 'Bima', 'plate': 'B 4444 JKL', 'status': 'Tersedia'},
