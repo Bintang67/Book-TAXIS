@@ -10,6 +10,8 @@ class MyHomePage extends StatefulWidget {
 class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(appBar: AppBar(title: Text("Book Taxis")));
+    return Scaffold(
+      appBar: AppBar(title: Text("Book Taxis"), backgroundColor: Colors.blue),
+    );
   }
 }
